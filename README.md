@@ -1,16 +1,12 @@
 # Burrows-Wheeler Transform in Dafny
 
+**This is agent generated code and still likely wrong.**
+
 This repository contains an implementation of the Burrows-Wheeler Transform (BWT) algorithm in Dafny, a programming language designed for formal verification.
 
 ## What is the Burrows-Wheeler Transform?
 
 The Burrows-Wheeler Transform is a string transformation algorithm that rearranges a character string into runs of similar characters. This transformation is useful for improving the efficiency of compression algorithms.
-
-## Files in this Repository
-
-- `bwt_verified.dfy`: The main implementation of BWT in Dafny with full verification
-- `bwt_minimal_verified.dfy`: A simplified version of the BWT implementation
-- `bwt_python.py`: A Python implementation of BWT for comparison
 
 ## How it Works
 
@@ -37,7 +33,7 @@ BWT Transform: `IPSSM$PISSII` (index: 5)
 To run the Dafny implementation:
 
 ```bash
-dafny run -t:py bwt_verified.dfy
+dafny run -t:py bwt.dfy
 ```
 
 To run the Python implementation:
